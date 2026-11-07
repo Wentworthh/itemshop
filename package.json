@@ -1,0 +1,11 @@
+{
+  "name": "arc-items-static-site",
+  "private": true,
+  "type": "module",
+  "description": "Static showcase of Arc Raiders digital items, data driven by a published Google Sheet.",
+  "scripts": {
+    "generate": "npm run generate:mods && npm run generate:csv",
+    "generate:csv": "node tools/generate-products-csv.js",
+    "generate:mods": "node tools/generate-weapon-mods.js"
+  }
+}

@@ -1,0 +1,2399 @@
+{
+  "slotLabels": {
+    "muzzle": "Muzzle",
+    "grip": "Grip",
+    "stock": "Stock",
+    "magazine": "Magazine"
+  },
+  "attachments": {
+    "angled_grip_i": {
+      "name": "Angled Grip I",
+      "image": ""
+    },
+    "angled_grip_ii": {
+      "name": "Angled Grip II",
+      "image": ""
+    },
+    "angled_grip_iii": {
+      "name": "Angled Grip III",
+      "image": ""
+    },
+    "compensator_i": {
+      "name": "Compensator I",
+      "image": ""
+    },
+    "compensator_ii": {
+      "name": "Compensator II",
+      "image": ""
+    },
+    "compensator_iii": {
+      "name": "Compensator III",
+      "image": ""
+    },
+    "extended_barrel_i": {
+      "name": "Extended Barrel I",
+      "image": ""
+    },
+    "extended_barrel_ii": {
+      "name": "Extended Barrel II",
+      "image": ""
+    },
+    "extended_barrel_iii": {
+      "name": "Extended Barrel III",
+      "image": "https://cdn.arctracker.io/items/v2/extended_barrel.png"
+    },
+    "extended_light_mag_i": {
+      "name": "Extended Light Mag I",
+      "image": ""
+    },
+    "extended_light_mag_ii": {
+      "name": "Extended Light Mag II",
+      "image": ""
+    },
+    "extended_light_mag_iii": {
+      "name": "Extended Light Mag III",
+      "image": ""
+    },
+    "extended_medium_mag_i": {
+      "name": "Extended Medium Mag I",
+      "image": ""
+    },
+    "extended_medium_mag_ii": {
+      "name": "Extended Medium Mag II",
+      "image": ""
+    },
+    "extended_medium_mag_iii": {
+      "name": "Extended Medium Mag III",
+      "image": ""
+    },
+    "extended_shotgun_mag_i": {
+      "name": "Extended Shotgun Mag I",
+      "image": ""
+    },
+    "extended_shotgun_mag_ii": {
+      "name": "Extended Shotgun Mag II",
+      "image": ""
+    },
+    "extended_shotgun_mag_iii": {
+      "name": "Extended Shotgun Mag III",
+      "image": ""
+    },
+    "horizontal_grip": {
+      "name": "Horizontal Grip",
+      "image": ""
+    },
+    "kinetic_converter": {
+      "name": "Kinetic Converter",
+      "image": ""
+    },
+    "lightweight_stock": {
+      "name": "Lightweight Stock",
+      "image": ""
+    },
+    "muzzle_brake_i": {
+      "name": "Muzzle Brake I",
+      "image": ""
+    },
+    "muzzle_brake_ii": {
+      "name": "Muzzle Brake II",
+      "image": ""
+    },
+    "muzzle_brake_iii": {
+      "name": "Muzzle Brake III",
+      "image": ""
+    },
+    "padded_stock": {
+      "name": "Padded Stock",
+      "image": ""
+    },
+    "shotgun_choke_i": {
+      "name": "Shotgun Choke I",
+      "image": ""
+    },
+    "shotgun_choke_ii": {
+      "name": "Shotgun Choke II",
+      "image": ""
+    },
+    "shotgun_choke_iii": {
+      "name": "Shotgun Choke III",
+      "image": ""
+    },
+    "shotgun_silencer": {
+      "name": "Shotgun Silencer",
+      "image": ""
+    },
+    "silencer_i": {
+      "name": "Silencer I",
+      "image": ""
+    },
+    "silencer_ii": {
+      "name": "Silencer II",
+      "image": ""
+    },
+    "silencer_iii": {
+      "name": "Silencer III",
+      "image": ""
+    },
+    "stable_stock_i": {
+      "name": "Stable Stock I",
+      "image": ""
+    },
+    "stable_stock_ii": {
+      "name": "Stable Stock II",
+      "image": ""
+    },
+    "stable_stock_iii": {
+      "name": "Stable Stock III",
+      "image": ""
+    },
+    "vertical_grip_i": {
+      "name": "Vertical Grip I",
+      "image": ""
+    },
+    "vertical_grip_ii": {
+      "name": "Vertical Grip II",
+      "image": ""
+    },
+    "vertical_grip_iii": {
+      "name": "Vertical Grip III",
+      "image": ""
+    }
+  },
+  "weapons": {
+    "anvil_i": {
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "anvil_ii": {
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "anvil_iii": {
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "anvil_iv": {
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "aphelion": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "arpeggio_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "arpeggio_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "arpeggio_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "arpeggio_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bettina_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bettina_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bettina_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bettina_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bobcat_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bobcat_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bobcat_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "bobcat_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "burletta_i": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "burletta_ii": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "burletta_iii": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "burletta_iv": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "canto_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "canto_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "canto_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "canto_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "ferro_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "ferro_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "ferro_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "ferro_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "hairpin_i": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ]
+    },
+    "hairpin_ii": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ]
+    },
+    "hairpin_iii": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ]
+    },
+    "hairpin_iv": {
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ]
+    },
+    "hullcracker_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "hullcracker_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "hullcracker_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "hullcracker_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "il_toro_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "il_toro_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "il_toro_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "il_toro_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "kettle_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "kettle_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "kettle_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "kettle_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "osprey_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "osprey_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "osprey_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "osprey_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "rattler_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "rattler_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "rattler_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "rattler_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "renegade_i": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "renegade_ii": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "renegade_iii": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "renegade_iv": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "stitcher_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "stitcher_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "stitcher_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "stitcher_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_light_mag_i",
+        "extended_light_mag_ii",
+        "extended_light_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "tempest_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "tempest_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "tempest_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "tempest_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ]
+    },
+    "torrente_i": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "torrente_ii": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "torrente_iii": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "torrente_iv": {
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ],
+      "muzzle": [
+        "compensator_i",
+        "compensator_ii",
+        "compensator_iii",
+        "extended_barrel_i",
+        "extended_barrel_ii",
+        "extended_barrel_iii",
+        "muzzle_brake_i",
+        "muzzle_brake_ii",
+        "muzzle_brake_iii",
+        "silencer_i",
+        "silencer_ii",
+        "silencer_iii"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "venator_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ]
+    },
+    "venator_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ]
+    },
+    "venator_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ]
+    },
+    "venator_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_medium_mag_i",
+        "extended_medium_mag_ii",
+        "extended_medium_mag_iii"
+      ]
+    },
+    "vulcano_i": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "vulcano_ii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "vulcano_iii": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    },
+    "vulcano_iv": {
+      "grip": [
+        "angled_grip_i",
+        "angled_grip_ii",
+        "angled_grip_iii",
+        "horizontal_grip",
+        "vertical_grip_i",
+        "vertical_grip_ii",
+        "vertical_grip_iii"
+      ],
+      "magazine": [
+        "extended_shotgun_mag_i",
+        "extended_shotgun_mag_ii",
+        "extended_shotgun_mag_iii"
+      ],
+      "muzzle": [
+        "shotgun_choke_i",
+        "shotgun_choke_ii",
+        "shotgun_choke_iii",
+        "shotgun_silencer"
+      ],
+      "stock": [
+        "kinetic_converter",
+        "lightweight_stock",
+        "padded_stock",
+        "stable_stock_i",
+        "stable_stock_ii",
+        "stable_stock_iii"
+      ]
+    }
+  }
+}

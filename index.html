@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; connect-src 'self' https://docs.google.com https://*.googleusercontent.com; script-src 'self'; style-src 'self';">
+    <meta name="description" content="Static showcase of digital items for Arc Raiders. Orders are handled manually on Discord.">
+    <title>Arc Raiders - Item Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="site-header__title">Arc Raiders - Store</h1>
+        <p class="site-header__subtitle">Hand farmed items. To complete a purchase, join our discord</p>
+    </header>
+
+    <main class="main">
+        <p id="status-message" class="status-message" role="status" aria-live="polite">Loading items...</p>
+        <section id="filters" class="filters" aria-label="Filters" hidden></section>
+        <section id="product-grid" class="product-grid" aria-label="Items"></section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="site-footer__text">Orders are confirmed manually on Discord, no backend and nothing saved on this page.</p>
+    </footer>
+
+    <dialog id="mods-dialog" class="mods-dialog" aria-labelledby="mods-dialog-title">
+        <div class="mods-dialog__header">
+            <h2 id="mods-dialog-title" class="mods-dialog__title">Customize</h2>
+            <button type="button" id="mods-dialog-close" class="mods-dialog__close" aria-label="Close">×</button>
+        </div>
+        <div id="mods-dialog-body" class="mods-dialog__body"></div>
+        <div id="mods-dialog-summary" class="mods-dialog__summary"></div>
+        <div class="mods-dialog__footer">
+            <button type="button" id="mods-dialog-back" class="mods-dialog__action">Back</button>
+            <button type="button" id="mods-dialog-add" class="mods-dialog__action mods-dialog__action--primary">Add</button>
+        </div>
+    </dialog>
+
+    <dialog id="cart-dialog" class="mods-dialog cart-dialog" aria-labelledby="cart-dialog-title">
+        <div class="mods-dialog__header">
+            <h2 id="cart-dialog-title" class="mods-dialog__title">
+                <span>Your cart</span>
+                <span id="cart-dialog-count" class="cart-dialog__count"></span>
+            </h2>
+            <button type="button" id="cart-dialog-close" class="mods-dialog__close" aria-label="Close">×</button>
+        </div>
+        <div id="cart-dialog-body" class="mods-dialog__body"></div>
+        <div id="cart-dialog-summary" class="cart-dialog__summary"></div>
+        <div id="cart-bulk" class="cart-dialog__bulk" hidden></div>
+        <div class="cart-dialog__checkout">
+            <label class="cart-dialog__label" for="cart-discord-name">Your Discord username (optional)</label>
+            <input id="cart-discord-name" class="cart-dialog__input" type="text" autocomplete="off">
+            <label class="cart-dialog__label" for="cart-note">Note (optional)</label>
+            <input id="cart-note" class="cart-dialog__input" type="text" autocomplete="off">
+            <p id="cart-status" class="cart-dialog__status" role="status" aria-live="polite"></p>
+        </div>
+        <div class="mods-dialog__footer">
+            <button type="button" id="cart-dialog-discord" class="mods-dialog__action">Discord</button>
+            <button type="button" id="cart-dialog-send" class="mods-dialog__action mods-dialog__action--primary">Copy order</button>
+        </div>
+    </dialog>
+
+    <div class="cart-fab">
+        <button type="button" id="cart-button" class="cart-button" aria-label="Open cart">
+            <svg class="cart-button__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M3 4.5h2.1l2.3 9.6a1.9 1.9 0 0 0 1.85 1.45h7.6a1.9 1.9 0 0 0 1.84-1.4L20.6 8.2H6.1" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="9.8" cy="19.4" r="1.35" fill="currentColor"/>
+                <circle cx="17.4" cy="19.4" r="1.35" fill="currentColor"/>
+            </svg>
+            <span class="cart-button__label">Cart</span>
+            <span class="cart-button__count">0</span>
+        </button>
+    </div>
+
+    <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" hidden>↑</button>
+</body>
+</html>
