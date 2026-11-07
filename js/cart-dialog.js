@@ -290,9 +290,37 @@ function createCartLine(line)
         syncCartUi();
     });
 
+    const input = document.createElement("input");
+    input.type = "number";
+    input.className = "card__quantity-input";
+    input.min = "1";
+    input.max = String(line.maxQuantity);
+    input.value = String(line.quantity);
+    input.setAttribute("aria-label", translate("quantityLabel"));
+    input.addEventListener("change", () =>
+    {
+        const newQuantity = Math.max(1, Math.min(parseInt(input.value, 10) || 1, line.maxQuantity));
+        setLineQuantity(line.key, newQuantity);
+        syncCartUi();
+    });
+    input.addEventListener("blur", () =>
+    {
+        const newQuantity = Math.max(1, Math.min(parseInt(input.value, 10) || 1, line.maxQuantity));
+        if (newQuantity !== line.quantity)
+        {
+            setLineQuantity(line.key, newQuantity);
+            syncCartUi();
+        }
+        else
+        {
+            input.value = String(line.quantity);
+        }
+    });
+
     const value = document.createElement("output");
     value.className = "card__quantity-value";
     value.textContent = String(line.quantity);
+    value.style.display = "none";
 
     const increaseButton = createQuantityButton("+", translate("increaseQuantity"));
     increaseButton.disabled = line.quantity >= line.maxQuantity;
@@ -303,6 +331,7 @@ function createCartLine(line)
     });
 
     quantity.appendChild(decreaseButton);
+    quantity.appendChild(input);
     quantity.appendChild(value);
     quantity.appendChild(increaseButton);
     row.appendChild(quantity);
