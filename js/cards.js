@@ -148,12 +148,18 @@ function createQuantityControl(product, quantityState)
     const maxQuantity = Math.max(product.quantity, 0);
     const decreaseButton = createStepButton("−", translate("decreaseQuantity"));
     const increaseButton = createStepButton("+", translate("increaseQuantity"));
-    const value = document.createElement("output");
-    value.className = "card__quantity-value";
+
+    const input = document.createElement("input");
+    input.type = "number";
+    input.className = "card__quantity-value";
+    input.min = "1";
+    input.max = String(maxQuantity);
+    input.value = String(quantityState.value);
+    input.setAttribute("aria-label", translate("quantityLabel"));
 
     const sync = () =>
     {
-        value.textContent = String(quantityState.value);
+        input.value = String(quantityState.value);
         decreaseButton.disabled = product.isSoldOut || quantityState.value <= 1;
         increaseButton.disabled = product.isSoldOut || quantityState.value >= maxQuantity;
     };
@@ -170,8 +176,39 @@ function createQuantityControl(product, quantityState)
         sync();
     });
 
+    input.addEventListener("change", () =>
+    {
+        const newValue = Math.max(1, Math.min(parseInt(input.value, 10) || 1, maxQuantity));
+        quantityState.value = newValue;
+        sync();
+    });
+
+    input.addEventListener("blur", () =>
+    {
+        const newValue = Math.max(1, Math.min(parseInt(input.value, 10) || 1, maxQuantity));
+        quantityState.value = newValue;
+        sync();
+    });
+
+    input.addEventListener("keydown", (event) =>
+    {
+        if (event.key === "ArrowUp" || event.key === "ArrowDown")
+        {
+            event.preventDefault();
+            if (event.key === "ArrowUp")
+            {
+                quantityState.value = Math.min(quantityState.value + 1, maxQuantity);
+            }
+            else
+            {
+                quantityState.value = Math.max(quantityState.value - 1, 1);
+            }
+            sync();
+        }
+    });
+
     wrapper.appendChild(decreaseButton);
-    wrapper.appendChild(value);
+    wrapper.appendChild(input);
     wrapper.appendChild(increaseButton);
     sync();
 

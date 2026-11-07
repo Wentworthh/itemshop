@@ -292,7 +292,7 @@ function createCartLine(line)
 
     const input = document.createElement("input");
     input.type = "number";
-    input.className = "card__quantity-input";
+    input.className = "card__quantity-value";
     input.min = "1";
     input.max = String(line.maxQuantity);
     input.value = String(line.quantity);
@@ -314,6 +314,26 @@ function createCartLine(line)
         else
         {
             input.value = String(line.quantity);
+        }
+    });
+    input.addEventListener("keydown", (event) =>
+    {
+        if (event.key === "ArrowUp" || event.key === "ArrowDown")
+        {
+            event.preventDefault();
+            const currentValue = parseInt(input.value, 10) || line.quantity;
+            if (event.key === "ArrowUp")
+            {
+                const newValue = Math.min(currentValue + 1, line.maxQuantity);
+                setLineQuantity(line.key, newValue);
+                syncCartUi();
+            }
+            else
+            {
+                const newValue = Math.max(currentValue - 1, 1);
+                setLineQuantity(line.key, newValue);
+                syncCartUi();
+            }
         }
     });
 
